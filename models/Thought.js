@@ -48,6 +48,7 @@ const ThoughtSchema = new Schema (
             type: String,
             required: true
         },
+        // ReactionSchema is subdoc referenced to from ThoughtSchema
         reactions: [ReactionSchema]
     },
     {
