@@ -5,6 +5,7 @@
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
+  * [Walkthrough Video](#walkthrough-video)
   * [Usage](#usage)
   * [Licenses](#licenses)
   * [Contributing](#contributing)
