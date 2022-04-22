@@ -5,7 +5,7 @@ const userController = {
     // get all users
     getAllUsers(req, res) {
         User.find({})
-            .select('-__V')
+            .select('-__v')
             .sort({ _id: -1 })
             .then(dbUserData => res.json(dbUserData))
             .catch(err => {
@@ -19,9 +19,9 @@ const userController = {
         User.findOne({ _id: params.id })
             .populate({
                 path: 'thoughts',
-                select: '-__V'
+                select: '-__v'
             })
-            .select('-__V')
+            .select('-__v')
             .then(dbUserData => {
                 //if no user is found, 404 res
                 if (!dbUserData) {
@@ -40,7 +40,7 @@ const userController = {
     createUser({ body }, res) {
         User.create(body)
             .then(dbUserData => res.json(dbUserData))
-            .catch(err => res.json(400).json(err));
+            .catch(err => res.json(err));
     },
 
     // update User by id
