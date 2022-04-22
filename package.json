@@ -1,6 +1,26 @@
 {
   "dependencies": {
     "express": "^4.17.3",
-    "mongoose": "^6.3.0"
-  }
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "myownspace",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genehackerman/myownspace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genehackerman/myownspace/issues"
+  },
+  "homepage": "https://github.com/genehackerman/myownspace#readme"
 }
