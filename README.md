@@ -18,6 +18,9 @@
 
   ## Installation
   Cloning the repo and then at the command line inputting npm install express and mongoose web package files. 
+  
+  ## Walkthrough Video
+  https://drive.google.com/file/d/1WnCLE02ix5DDM1PAAYFxxyLvvKfAYGCF/view
 
   ## Usage
   Using Insomnia, access http://localhost3001/api will be the hosting site and then running all the GET, POST, PUT, and DELETE requests from the application itself. Must provide a "userName", "email" and for the text body "thoughtText" to enter text. 
