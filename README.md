@@ -14,10 +14,10 @@
   * [Credits](#credits)
   
   ## Description
-  A social networking site that allows for user profile creation along with posting and reacting to others' posts as well as deleting and updating the posts and reactions. Users may also add and delete friends to their friend count.
+  A social networking site that allows for user profile creation along with posting and reacting to others' posts as well as deleting and updating the posts and reactions. Users may also add and delete friends to their friend count. This application uses MongoDB database as well as Express.js for routing. Mongoose Object Document Mapping is used for syncing the database. Moment was used for the time and date format of the posts created. 
 
   ## Installation
-  Cloning the repo and then at the command line inputting npm install express and mongoose web package files. 
+  Cloning the repo and then at the command line inputting npm install express, moment and mongoose web package files. 
   
   ## Walkthrough Video
   https://drive.google.com/file/d/1WnCLE02ix5DDM1PAAYFxxyLvvKfAYGCF/view
